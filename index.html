@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="container">
+          <img class="logo" src="logo/lebologo.png" />
+          <div>
+            <div class="nav-toggle" id="navToggle">
+              <ion-icon
+                id="hambuger"
+                class="hambuger-icon"
+                name="menu-outline"
+              ></ion-icon>
+              <ion-icon
+                class="hambuger-icon hidden"
+                name="close-outline"
+              ></ion-icon>
+            </div>
+          </div>
+          <nav class="nav-header">
+            <ul class="ul-header">
+              <li class="header-list"><a href="">Home</a></li>
+              <li class="header-list"><a href="">Our company</a></li>
+              <li class="header-list"><a href="">Our Service</a></li>
+              <li class="header-list"><a href="">Our Project</a></li>
+
+              <li class="header-list"><a href="">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <section class="hero">
+        <video autoplay loop muted plays-inline class="back-video">
+          <source
+            src="img-video/The Power and Beauty of Construction Sites- A Cinematic Reel.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <div class="content">
+          <h1>Buiding What Matter To You</h1>
+          <a href="#">WHAT DO YOU WANT TO BUILD</a>
+          <ion-icon
+            class="hambuger-icon hidden"
+            name="close-outline"
+          ></ion-icon>
+        </div>
+      </section>
+
+      <section>
+        <div class="slider">
+          <div class="list">
+            <div class="item active">
+              <img src="img-slide/Kitchens-media.jpg" />
+              <div class="content-slider">
+                <p>Design</p>
+                <h2>Kitchens</h2>
+              </div>
+            </div>
+            <div class="item">
+              <img src="img-slide/Bathrooms-media.jpg" />
+              <div class="content-slider">
+                <p>Design</p>
+                <h2>Bathrooms</h2>
+              </div>
+            </div>
+            <div class="item">
+              <img src="img-slide/Closets-media.jpg" />
+              <div class="content-slider">
+                <p>Design</p>
+                <h2>Closets</h2>
+              </div>
+            </div>
+            <div class="item">
+              <img src="img-slide/Home-Banner-9.jpg" />
+              <div class="content-slider">
+                <p>Design</p>
+                <h2>Banner</h2>
+              </div>
+            </div>
+            <div class="item">
+              <img src="img-slide/Home-Storage-media.jpg" />
+              <div class="content-slider">
+                <p>Design</p>
+                <h2>Garages</h2>
+              </div>
+            </div>
+          </div>
+          <div class="arrows">
+            <button id="next">
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </button>
+            <button id="prev">
+              <ion-icon name="arrow-back-outline"></ion-icon>
+            </button>
+          </div>
+          <div class="thumbnail">
+            <div class="item active">
+              <img src="img-slide/Kitchens-media.jpg" />
+              <div class="content-slider">Kitchens</div>
+            </div>
+            <div class="item">
+              <img src="img-slide/Bathrooms-media.jpg" />
+              <div class="content-slider">Bathrooms</div>
+            </div>
+            <div class="item">
+              <img src="img-slide/Closets-media.jpg" />
+              <div class="content-slider">Closets</div>
+            </div>
+            <div class="item">
+              <img src="img-slide/Home-Banner-9.jpg" />
+              <div class="content-slider">Banner</div>
+            </div>
+            <div class="item">
+              <img src="img-slide/Home-Storage-media.jpg" />
+              <div class="content-slider">Garages</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-show">
+        <div class="container-show">
+          <span>How it Works</span>
+          <h2 class="heading-secondary">Construct on your comfort zone</h2>
+        </div>
+
+        <div class="container-two">
+          <div class="Construct">
+            <img src="show/14369636.jpeg" class="Construction-img" />
+            <div class="construction-content">
+              <div class="div-tag">
+                <span class="tag">Build with us</span>
+              </div>
+              <p class="Construction-title">Building Construction</p>
+              <ul class="construction-attributes">
+                <li class="construction-attribute">
+                  <ion-icon
+                    class="construction-icons"
+                    name="construct-outline"
+                  ></ion-icon
+                  ><span
+                    >We build spaces where dream thrive, blending innovation and
+                    expertise to create lasting structures that inspire
+                    generation</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="Construct">
+            <img
+              src="show/istockphoto-1646522124-612x612.jpg"
+              class="Construction-img"
+            />
+            <div class="construction-content">
+              <div class="div-tag">
+                <span class="tag">Build with us</span>
+              </div>
+              <p class="Construction-title">Development Consultancy</p>
+              <ul class="construction-attributes">
+                <li class="construction-attribute">
+                  <ion-icon
+                    class="construction-icons"
+                    name="settings-outline"
+                  ></ion-icon
+                  ><span
+                    >Guidance rooted in Experience, empowering client to achieve
+                    their development goals with confidence</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="Construct">
+            <img
+              src="show/istockphoto-1657566077-612x612.jpg"
+              class="Construction-img"
+            />
+            <div class="construction-content">
+              <div class="div-tag">
+                <span class="tag">Build with us</span>
+              </div>
+              <p class="Construction-title">Civil Engineering Work</p>
+              <ul class="construction-attributes">
+                <li class="construction-attribute">
+                  <ion-icon
+                    class="construction-icons"
+                    name="people-outline"
+                  ></ion-icon
+                  ><span
+                    >We engineer solution that propel communities forward,
+                    leaving a legacy of excellence in every project we
+                    undertake</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="Construct">
+            <img
+              src="show/istockphoto-1695936429-612x612.jpg"
+              class="Construction-img"
+            />
+            <div class="construction-content">
+              <div class="div-tag">
+                <span class="tag">Build with us</span>
+              </div>
+              <p class="Construction-title">Project Management</p>
+              <ul class="construction-attributes">
+                <li class="construction-attribute">
+                  <ion-icon
+                    class="construction-icons"
+                    name="book-outline"
+                  ></ion-icon
+                  ><span
+                    >Effciency and excellence from start to finish, keeping
+                    project on track and tearms alligned with precision and
+                    passion</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-client">
+        <div>
+          <h1>Our Client</h1>
+          <p>GOVERNMENT</p>
+        </div>
+        <div class="img-client">
+          <img class="kd" src="cliest/images (10).jpeg" />
+          <img class="kano" src="cliest/images (9).jpeg" />
+          <img src="cliest/Our-Client-Government-03-150x150.png" />
+          <img src="cliest/Our-Client-Government-1-150x150.png" />
+          <img src="cliest/Our-Client-Government-2-150x150.png" />
+          <img src="cliest/Our-Client-Government-4-150x150.png" />
+          <img src="cliest/Our-Client-Government-5-150x150.png" />
+          <img class="abj" src="cliest/images (9)p.jpeg" />
+        </div>
+      </section>
+
+      <section class="section-service">
+        <div class="row-ro">
+          <h2 class="section-h tag">Why Choose Us</h2>
+          <p>
+            we're your trusted local choice for building and civil engineering
+            with expertise in diverse designs and commitment to excellence, we
+            deliver top-tier result in construction and allied fields
+          </p>
+        </div>
+        <div class="row-row">
+          <div class="column">
+            <div class="card-card">
+              <div class="icon-wrapper">
+                <ion-icon name="laptop-outline"></ion-icon>
+              </div>
+              <h3>Better Understanding of Project Needs</h3>
+              <p>
+                Experince exellence in building and civil engineering with lebo
+                ltd construction Nigeria. what sets us apart? Unrivaled respect
+                and professionalism even in the toughest schedules
+              </p>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card-card">
+              <div class="icon-wrapper">
+                <ion-icon name="alarm-outline"></ion-icon>
+              </div>
+              <h3>Shorter Construction and Cost Savings</h3>
+              <p>
+                As your Construction Manager in nigeria, we cover schedulling
+                budgeting, subcontractor bids, quality control,safty, and total
+                project management,Expertise and value guranteed
+              </p>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card-card">
+              <div class="icon-wrapper">
+                <ion-icon name="save-outline"></ion-icon>
+              </div>
+              <h3>Greater Efficiency and Cost Saving</h3>
+              <p>
+                Our comprehansive expertise spans the entire project lifecycle
+                from metriculous planning to flawless execution, we ensure
+                competive cost without compromising on quality standards
+              </p>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card-card">
+              <div class="icon-wrapper">
+                <ion-icon name="people-outline"></ion-icon>
+              </div>
+              <h3>Crafting Dreams, Aspirations</h3>
+              <p>
+                Building is not just about bricks and mortar, its about dreams
+                talking shap, aspirations reaching heights, and legacies being
+                built upon the fundation of passion and perserverance
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-testimonial">
+        <div class="testimonial-container">
+          <div class="testimonial-header">
+            <span class="tst-title">Testimonial</span>
+            <h2>Once you try it,you can't go back</h2>
+          </div>
+          <div class="testimonials">
+            <figure>
+              <img src="testimonies/download (1).jpeg" />
+              <blockquote>
+                “Throughout the whole project, lebo Construction provided a
+                professional and reliable service every step of the way. The
+                team delivered the project end-to-end, demonstrating a
+                determination to deliver our new warehouse and office space to
+                the highest standard. The finished product speaks for itself and
+                we would not hesitate to recommend them.”
+              </blockquote>
+              <p class="testimonials-name">&mdash; governor El rufai</p>
+            </figure>
+
+            <figure>
+              <img src="testimonies/download (3).jpg" />
+              <blockquote class="testimonial-text">
+                “Having worked with Lebo Construction on a previous project back
+                in 2015, we went back to them because of their professional
+                project management and high quality build. Despite this project
+                being particularly challenging – due to working around our fully
+                operational workshop throughout the development – Sutcliffe
+                worked with us to ensure the build was completed safely, on time
+                and on budget. I would have no hesitation in recommending
+                Sutcliffe Construction and look forward to working with them
+                again in the future.”
+              </blockquote>
+              <p class="testimonials-name">&mdash; Bukola saraki</p>
+            </figure>
+
+            <figure>
+              <img src="testimonies/download (4).jpeg" />
+              <blockquote>
+                “We chose Lebo Construction for our most recent project due to
+                our past experience working with the company. In 2007-8, it
+                built a large warehouse for us here at Heysham. One of the
+                things that stood out from that project was the professionalism
+                that used to execute the project on a busy working site in quite
+                adverse weather conditions. Everything was done in a very clean
+                and organised manner with minimal disruption to our day to day
+                business. Sutcliffe consistently keeps to the timelines promised
+                for projects and I wouldn’t hesitate to recommend it.”
+              </blockquote>
+              <p class="testimonials-name">&mdash; AA Rano</p>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="row">
+            <div class="footer-col">
+              <h4>Company</h4>
+              <ul>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">Lebo Construction</a></li>
+                <li><a href="#">based in Kaduna Nigeria</a></li>
+                <li><a href="#">Engineering and Allied field design</a></li>
+                <li><a href="#">affiliate program</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-col">
+              <h4>Our Service</h4>
+              <ul>
+                <li><a href="#">Building Construction</a></li>
+                <li><a href="#">Civil Engineering</a></li>
+                <li><a href="#">property Development/Real Estate</a></li>
+                <li><a href="#">specialized Construction </a></li>
+                <li><a href="#">Consultancy</a></li>
+                <li><a href="#">Project management</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-col">
+              <h4>Contact info</h4>
+              <ul>
+                <li><a href="#">P.O Box Nigeria kaduna</a></li>
+                <li><a href="#">info@leboconstruction.com</a></li>
+                <li><a href="#">+2348033061020</a></li>
+                <li><a href="#">+2347054843056</a></li>
+                <li><a href="#">lebo@gmail.com</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-col">
+              <h4>Follow us</h4>
+              <div class="social-link">
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <script src="script.js"></script>
+    </main>
+  </body>
+</html>
